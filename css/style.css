@@ -8,7 +8,9 @@
 
 /*Задал стили*/
 
-header,section,footer {
+header,
+section,
+footer {
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -77,6 +79,7 @@ header,section,footer {
     display: flex;
     align-items: center;
 }
+
 /*Задал блоку центрирование*/
 
 .text p {
@@ -112,6 +115,7 @@ header,section,footer {
     width: 200px;
     height: 45px;
     cursor: pointer;
+    color: #FFFFFF;
     background-color: #4985FF;
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
