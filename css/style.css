@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*Задал стили*/
+
+header,section,footer {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/*Задал размеры и отступы*/
+
+.header {
+    background-image: url(../img/Rectangle.png);
+    background-size: auto;
+    padding: 40px 0 335px;
+    background-repeat: no-repeat;
+}
+
+/*Задал фон и отступы*/
+
+.container {
+    display: flex;
+    min-width: 1100px;
+    margin: 0 auto;
+}
+
+/*Задал размеры контейнеру*/
+
+.nav-menu {
+    justify-content: flex-end;
+    padding-right: 405px;
+}
+
+/*Менню в правом углу*/
+
+.nav-menu a {
+    text-decoration: none;
+    justify-content: end;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 40px;
+    color: #FFFFFF;
+}
+
+/*Задал навигации ее место и размеры*/
+
+.nav-menu a:last-child {
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+/*Задал последнему отступ */
+
+.nav-menu a:hover {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+/*Задал наведение курсором миши (псевдокласс)*/
+
+.line {
+    opacity: 0.5;
+    border: 1px solid #A1A1A1;
+    margin-bottom: 219px;
+}
+
+/*Задал линию и отступ (низ)*/
+
+.text {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+/*Задал блоку центрирование*/
+
+.text p {
+    max-width: 175px;
+    margin-bottom: 20px;
+
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/*Задал отступ, размер и высоту  заголовку*/
+
+.text h1 {
+    max-width: 829px;
+    margin-bottom: 50px;
+
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*Задал ------ тексту */
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+    background-color: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
